@@ -57,7 +57,6 @@
         </dependency>
 
         <!-- 整合redis-->
-        <!-- 整合redis-->        <!--redis-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
@@ -69,7 +68,6 @@
             <version>3.6</version>
         </dependency>
 		
-		<!--fastjson-->
         <!-- fastjson -->
         <dependency>
             <groupId>com.alibaba</groupId>
