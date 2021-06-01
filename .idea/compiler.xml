@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ecs-api-goods" />
+        <module name="ecs-api-member" />
+        <module name="ecs-api-phone" />
+        <module name="ecs-basic-eureka" />
+        <module name="ecs-basic-gatway" />
+        <module name="ecs-common-core" />
+        <module name="ecs-impl-goods" />
+        <module name="ecs-impl-member" />
+        <module name="ecs-impl-phone" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ecs-api-goods" options="-parameters" />
+      <module name="ecs-api-member" options="-parameters" />
+      <module name="ecs-api-phone" options="-parameters" />
+      <module name="ecs-basic-eureka" options="-parameters" />
+      <module name="ecs-basic-gatway" options="-parameters" />
+      <module name="ecs-common-core" options="-parameters" />
+      <module name="ecs-impl-goods" options="-parameters" />
+      <module name="ecs-impl-member" options="-parameters" />
+      <module name="ecs-impl-phone" options="-parameters" />
+    </option>
+  </component>
+</project>

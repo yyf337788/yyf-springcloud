@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xb.goods.mapper.ProductMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xb.common.entity.model.goods.Product">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="description" property="description" />
+        <result column="price" property="price" />
+        <result column="stock" property="stock" />
+        <result column="level1_id" property="level1Id" />
+        <result column="level2_id" property="level2Id" />
+        <result column="level3_id" property="level3Id" />
+        <result column="main_img" property="mainImg" />
+        <result column="sub_imgs" property="subImgs" />
+        <result column="status" property="status" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, name, description, price, stock, level1_id, level2_id, level3_id, main_img, sub_imgs, status, create_time, update_time
+    </sql>
+
+</mapper>
