@@ -67,7 +67,8 @@
             <artifactId>commons-net</artifactId>
             <version>3.6</version>
         </dependency>
-
+		
+		<!--fastjson-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
