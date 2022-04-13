@@ -17,4 +17,8 @@ import org.springframework.stereotype.Controller;
 @RequestMapping("/category")
 public class CategoryController {
 
+	public void queryCategory(){
+		
+	}
+
 }
